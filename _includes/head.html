@@ -8,7 +8,9 @@
     <meta name="robots" content="{{page.robots}}" />
   {% endif %}
 
-  <link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon.ico">
+  <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/svg+xml" />
+  <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/svg+xml" />
+  <script src="./assets/scripts/favicon-switcher.js" type="application/javascript"></script>
 
   {%- if site.listen_for_clients_preferred_style -%}
     <link rel="stylesheet" type="text/css" href="{{ "/assets/main.css" | relative_url }}">
