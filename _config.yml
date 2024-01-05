@@ -5,8 +5,10 @@ baseurl: ''
 repository:  morningdip/morningdip.github.io
 repository_branch: main
 
-favicon: ./assets/images/favicon.svg
-favicon_dark: ./assets/images/favicon-dark.svg
+markdown: kramdown
+
+kramdown:
+  hard_wrap: true
 
 header_pages:
   - index.md
