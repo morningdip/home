@@ -7,9 +7,8 @@ repository_branch: main
 
 markdown: kramdown
 
-highlighter: rouge
-
 kramdown:
+  syntax_highlighter: rouge
   input: GFM
   hard_wrap: true
 
