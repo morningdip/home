@@ -29,6 +29,7 @@ blockquote {
   border-left: 3px solid var(--carolina-blue);
   background-color: var(--raisin-black);
   padding: 4px 4px 4px 16px;
+  line-height: 1.7 !important;
 }
 @media only screen and (max-device-width: 500px) { * { font-size: $mobile-font-size !important; } }
 
@@ -89,7 +90,7 @@ code.language-plaintext.highlighter-rouge {
   background-color: var(--lavender-floral);
   border-radius: 3px;
   color: var(--lavender-web);
-  padding: 4px 4px;
+  padding: 4px 8px;
 }
 .highlight .c { color: var(--roman-silver); font-style: italic } /* Comment */
 .highlight .err { color: var(--congo-pink); } /* Error */
