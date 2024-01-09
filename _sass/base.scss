@@ -79,6 +79,13 @@ textarea { vertical-align: top; }
 figure.highlight { margin: 5px 0; }
 pre { background-color: var(--raisin-black);  display: block;  border: 0;  padding: 1rem 2rem;  margin: 0;  overflow: auto;  font-size: $base-font-size;  color: var(--text-color);  line-height: 1.7 !important;  font-family: $base-font-family !important; }
 code {font-family: $base-font-family !important;}
+code.language-plaintext.highlighter-rouge {
+  background-color: var(--lavender-floral);
+  border-radius: 3px;
+  color: var(--lavender-web);
+  padding-left: 4px;
+  padding-right: 4px;
+}
 .highlight .c { color: var(--roman-silver); font-style: italic } /* Comment */
 .highlight .err { color: var(--congo-pink); } /* Error */
 .highlight .k { color: var(--light-blue); } /* Keyword */
