@@ -26,11 +26,9 @@ ul, li { margin: 0px 0px;  color: var(--text-color); }
 a { text-decoration: underline;  color: var(--link-color); }
 a:hover { color: var(--background-color); background-color: var(--base-color); }
 blockquote {
-    display: block;
     border-left: 3px solid var(--carolina-blue);
     background-color: var(--raisin-black);
     padding: 4px 4px 4px 16px;    
-    line-height: 1.7 !important;
 }
 @media only screen and (max-device-width: 500px) { * { font-size: $mobile-font-size !important; } }
 
@@ -39,7 +37,7 @@ blockquote {
  */
 .container { width: $container-width;  max-width: $container-max-width;  margin-right: auto;  margin-left: auto; }
 p { word-wrap: break-word;  word-break: break-word;  white-space: pre-wrap; margin-bottom: 15px; }
-blockquote p { margin-bottom: 0px !important; }
+blockquote p { margin-bottom: 0px;  margin: 0; }
 footer { color: var(--text-color);  border-top: var(--border);  margin: 20px auto 15px;  padding-top: 10px;  text-align: right; }
 header { margin-top: 25px;  margin-bottom: 10px; }
 header p { text-align: left;  margin: 0; }
