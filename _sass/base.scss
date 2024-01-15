@@ -86,12 +86,6 @@ textarea { vertical-align: top; }
 figure.highlight { margin: 5px 0; }
 pre { background-color: var(--raisin-black);  display: block;  border: 0;  padding: 1rem 2rem;  margin: 0;  overflow: auto;  font-size: $base-font-size;  color: var(--text-color);  line-height: 1.7 !important;  font-family: $base-font-family !important; }
 code {font-family: $base-font-family !important;}
-code.language-plaintext.highlighter-rouge {
-  background-color: var(--lavender-floral);
-  border-radius: 3px;
-  color: var(--lavender-web);
-  padding: 1px 4px;
-}
 .highlight .hll { background-color: #49483e }
 .highlight  { background: #272822; color: #f8f8f2 }
 .highlight .c { color: #75715e } /* Comment */
