@@ -7,6 +7,9 @@ permalink: /about/
 ## 關於我
 一名專寫糞 code 的軟體工程師。
 
+"If you have a problem with me, text me. If you don't have my number then you probably don't know me well enough to have a problem with me."
+- Tom Holland
+
 ## 興趣
 - 睡覺
 - 遊戲
