@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  解決 Safari iCloud 標籤頁無法同步的問題
+title:  解決 Safari iCloud 標籤頁同步問題
 date:   2024-01-16
 categories: tips
 ---
