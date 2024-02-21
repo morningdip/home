@@ -9,7 +9,7 @@ categories: tips
 當然這會帶來很多方便的功能，不過代價就是你需要賣一點隱私給 Kobo，
 想要全部自己親手掌控，卻沒有跳過登入的選項，好在國外有大神用 SQL 語法修改，
 除了跳過登入的步驟外，還可以關閉 Kobo Analytics Event。
-
+<br/>
 
 ```sql
 insert or replace into user
