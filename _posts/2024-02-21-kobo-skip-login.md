@@ -25,6 +25,7 @@ after insert on AnalyticsEvents begin
   delete from AnalyticsEvents;
 end;
 ```
+<br/>
 
 詳細的步驟如下：
 1. 把 Kobo 連接到電腦
@@ -33,5 +34,6 @@ end;
 4. 在 **Execute SQL** 分頁中輸入上述的程式碼
 5. 點選 **File/Close Database**，並儲存變更
 6. 完成囉
+<br/>
 
 [Ref: Setting up a Kobo without logging in](https://jacobalbano.com/2021/06/24/setting-up-a-kobo-without-logging-in/)
